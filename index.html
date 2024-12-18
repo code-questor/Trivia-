@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trivedi's Trivia Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Trivedi's Trivia Quiz</h1>
+        <p>Trivedi's Tricky Trivia To Trip Thou!!</p>
+    </header>
+
+    <!--Question Section-->
+    <section id="question">
+        <h2 id="question-text">Question will appear here</h2>
+    </section>
+
+    <!--Options Section-->
+    <section class="options-container">
+        <fieldset>
+            <legend>Choose the correct answer:</legend>
+            <button class="option" aria-label="Option 1">Option 1</button>
+            <button class="option" aria-label="Option 2">Option 2</button>
+            <button class="option" aria-label="Option 3">Option 3</button>
+            <button class="option" aria-label="Option 4">Option 4</button>
+        </fieldset>
+    </section>
+
+    <!-- Next Button-->
+    <div>
+        <button class="next-button">Next Question</button>
+    </div>
+
+    <!--Score Tracker-->
+    <div class="score-container">
+        <p id="score-tracker">Score: 0/0</p>
+    </div>
+
+    <!--Loading Placeholder-->
+    <div class="score-container">
+        <p id="loading-placeholder" aria-hidden="true">Loading ...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
